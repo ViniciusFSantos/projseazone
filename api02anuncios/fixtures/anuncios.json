@@ -1,0 +1,35 @@
+[
+    {
+        "model": "core.Anuncios",
+        "pk": 1,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "anuncio_imovel": "3",
+            "plataforma": "TripAdvisor",
+            "taxa_cobrada":130.00
+        }
+    },
+    {
+        "model": "core.Anuncios",
+        "pk": 2,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "anuncio_imovel": "1",
+            "plataforma": "Expedia",
+            "taxa_cobrada":98.00
+        }
+    },
+    {
+        "model": "core.Anuncios",
+        "pk": 3,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "anuncio_imovel": "5",
+            "plataforma": "AIRBNB",
+            "taxa_cobrada":54.87
+        }
+    }
+]

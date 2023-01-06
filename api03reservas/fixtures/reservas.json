@@ -1,0 +1,128 @@
+[
+    {
+        "model": "core.Reservas",
+        "pk":"2be30338-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "3",
+            "chekin_data": "2023-12-10",
+            "chekout_data":"2023-12-14",
+            "valor_total":2000.24,
+            "quant_hospedes":"2",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk":"4211e502-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "1",
+            "chekin_data": "2023-04-01",
+            "chekout_data":"2023-04-05",
+            "valor_total":2900.26,
+            "quant_hospedes":"3",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk": "471b5628-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "1",
+            "chekin_data": "2023-08-28",
+            "chekout_data":"2023-09-01",
+            "valor_total":1230.12,
+            "quant_hospedes":"1",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk": "4b9a2328-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "3",
+            "chekin_data": "2023-10-07",
+            "chekout_data":"2023-10-10",
+            "valor_total":1400.00,
+            "quant_hospedes":"2",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk": "4f14a05a-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "2",
+            "chekin_data": "2023-02-02",
+            "chekout_data":"2023-02-06",
+            "valor_total":999.99,
+            "quant_hospedes":"2",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk": "52e2796e-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "1",
+            "chekin_data": "2023-09-09",
+            "chekout_data":"2023-09-12",
+            "valor_total":3100.89,
+            "quant_hospedes":"4",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk": "57afbeca-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "3",
+            "chekin_data": "2023-12-04",
+            "chekout_data":"2023-12-08",
+            "valor_total":1547.00,
+            "quant_hospedes":"1",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk": "5bababba-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "2",
+            "chekin_data": "2023-10-10",
+            "chekout_data":"2023-10-12",
+            "valor_total":800.66,
+            "quant_hospedes":"1",
+            "comentarios":""
+        }
+    },
+    {
+        "model": "core.Reservas",
+        "pk":"61229c2a-8dd4-11ed-a1eb-0242ac120002",
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "reserva_anuncio": "2",
+            "chekin_data": "2023-07-01",
+            "chekout_data":"2023-07-04",
+            "valor_total":1600.20,
+            "quant_hospedes":"2",
+            "comentarios":""
+        }
+    }
+]

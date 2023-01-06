@@ -1,0 +1,72 @@
+[
+    {
+        "model": "core.Imoveis",
+        "pk": 1,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "imovel_codigo": "89756",
+            "limite_hospedes": "3",
+            "banheiros_quant":"1",
+            "permite_animais":true,
+            "valor_limpeza":150,
+            "data_ativa":"2020-01-05"
+        }
+    },
+    {
+        "model": "core.Imoveis",
+        "pk": 2,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "imovel_codigo": "62574",
+            "limite_hospedes": "4",
+            "banheiros_quant":"2",
+            "permite_animais":true,
+            "valor_limpeza":262,
+            "data_ativa":"2021-03-14"
+        }
+    },
+    {
+        "model": "core.Imoveis",
+        "pk": 3,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "imovel_codigo": "55421",
+            "limite_hospedes": "1",
+            "banheiros_quant":"1",
+            "permite_animais":false,
+            "valor_limpeza":80,
+            "data_ativa":"2019-02-20"
+        }
+    },
+    {
+        "model": "core.Imoveis",
+        "pk": 4,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "imovel_codigo": "38741",
+            "limite_hospedes": "2",
+            "banheiros_quant":"2",
+            "permite_animais":true,
+            "valor_limpeza":150,
+            "data_ativa":"2020-01-05"
+        }
+    },
+    {
+        "model": "core.Imoveis",
+        "pk": 5,
+        "fields": {
+            "criado_em":"2023-01-06T19:45:23.028343-03:00",
+            "atualizado_em":"2023-01-06T19:45:23.028343-03:00",
+            "imovel_codigo": "89942",
+            "limite_hospedes": "3",
+            "banheiros_quant":"1",
+            "permite_animais":true,
+            "valor_limpeza":110,
+            "data_ativa":"2022-10-07"
+        }
+    }
+  ]
