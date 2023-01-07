@@ -2,7 +2,7 @@
 Khanto
 
 # Objetivos do projeto:
-Projeto desenvolvido para teste de conhecimentos solicitado pela empresa Seazone. Visando alcançar a vaga de Desenvolvedor Python.
+Projeto desenvolvido para teste de conhecimentos conforme solicitado pela empresa Seazone visando alcançar a vaga de Desenvolvedor Python.
 
 # Test Case:
 Envolve a criação de 3 APIs
