@@ -10,11 +10,11 @@ class Base(models.Model):
         abstract = True    
 
 class Imoveis(Base):
-    imovel_codigo = models.CharField(blank=False, max_length=10, validators=[RegexValidator(r'^\d{1,999999}$')], unique=True)
-    limite_hospedes = models.CharField(blank=False, max_length=1, validators=[RegexValidator(r'^\d{1,5}$')])
-    banheiros_quant = models.CharField(blank=False, max_length=1, validators=[RegexValidator(r'^\d{1,4}$')])
+    imovel_codigo = models.CharField(blank=False, max_length=5, validators=[RegexValidator(r'^[0-9]{5}$')], unique=True)
+    limite_hospedes = models.CharField(blank=False, max_length=1)
+    banheiros_quant = models.CharField(blank=False, max_length=1)
     permite_animais =  models.BooleanField(blank=False, default=False)
-    valor_limpeza = models.DecimalField(max_digits=6, decimal_places=2, blank=False, validators=[MinValueValidator(1)])
+    valor_limpeza = models.DecimalField(max_digits=6, decimal_places=2, blank=False, validators=[MinValueValidator(10)])
     data_ativa = models.DateField(auto_now_add=False, blank=False)
 
     def __str__(self):
@@ -24,7 +24,7 @@ class Imoveis(Base):
         verbose_name_plural = "Imóveis"
     
 class Anuncios(Base):
-    anuncio_imovel = models.ForeignKey(Imoveis, on_delete=models.DO_NOTHING)
+    anuncio_imovel = models.ForeignKey(Imoveis, on_delete=models.CASCADE)
     plataforma = models.CharField(max_length=10, blank=False)
     taxa_cobrada = models.DecimalField(max_digits=6, decimal_places=2, validators=[MinValueValidator(1)], blank=False)
     
