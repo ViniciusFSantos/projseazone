@@ -27,7 +27,7 @@ UUID <br>
 SQLite3 (Banco de dados padrão do Django) <br>
 
 ## Sistema operacional utilizado no desenvolvimento:
-Windows 10 Pro (para fins didáticos deste readme recomedo a utilização do mesmo sistema operacional usado no desenvolvimento)
+Windows 10 Pro 
 
 ## Instalação de dependências
 Recomendo a criação e ativação de um ambiente virtual (venv) para instalação das dependências
